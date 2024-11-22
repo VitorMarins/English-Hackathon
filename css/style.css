@@ -1,16 +1,18 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
+    font-family: Helvetica;
+    background-image: url('../img/BG.png');
+    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 80vh;
 }
-
+  
 .quiz-container {
-    background-color: #fff;
-    border: 1px solid #ddd;
+    color: #fff;
+    background-color: #000000;
+    border: 1px solid #3f3f3f;
     border-radius: 20px;
     padding: 20px;
     width: 400px;
@@ -29,6 +31,8 @@ h1 {
 }
 
 .escolhas button {
+    background-color: rgb(57, 57, 57);
+    color: #fff;
     display: inline-block;
     margin: 10px 5px;
     border: 1px solid #000;
@@ -37,4 +41,10 @@ h1 {
     width: 45%;
     height: 45%;
     cursor: pointer;
+    transition: 0.2s;
+}
+
+.escolhas button:hover {
+    background-color: #c5c5c5;
+    color: #000;
 }
